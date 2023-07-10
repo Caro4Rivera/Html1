@@ -1,0 +1,42 @@
+header {
+    background-color: hsl(73, 52%, 70%);
+    padding: 20px;
+    border: 3px solid black;
+    text-align: center;
+    margin: 100px;
+    
+  }
+  nav {
+    background-color: hsl(315, 44%, 73%);
+    color: #fff;
+    padding: 10px;
+    border: 3px solid black;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 100px;
+    
+  }
+  #home {
+    background-color: #e6e6e6;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px;
+    border: 3px solid black;
+  }
+  #about {
+    background-color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px;
+    border: 3px solid black;
+  }
+  #welcome {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    margin: 100px;
+    border: 3px solid black;
+  }
+  

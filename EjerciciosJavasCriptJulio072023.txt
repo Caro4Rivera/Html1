@@ -1,0 +1,40 @@
+/* prompt('Escribe una frase')
+console.log (' ') 
+
+
+const nombre = prompt("Cuál es tu nombre?")
+console.log('Hola ' + nombre + ' !' )
+
+
+const a = prompt('Ingresa un numero ')
+const b = prompt('Ingresa otro numero ')
+const result = Number(a) + Number(b);
+console.log (result)
+
+const a = 2023
+const b = prompt('En que año naciste?')
+const result = Number(a) - Number(b)
+console.log('Tienes '+ result + ' años' )
+
+const peso = prompt('Cuanto pesas?')
+const altura= prompt('cuanto mides?')
+const result= peso/altura**2
+console.log('Tu BMI es' + result )
+
+const a = prompt('Ingresa un numero ')
+if (a > 10){
+   console.log('El numero es mayor a 10')
+} else if (a < 10){
+    console.log('El numero es menor o igual a 10')
+}*/
+
+const numeroaleatorio =Math.floor (Math.random() * 10) + 1
+console.log(numeroaleatorio)
+
+const numerousuario= parseInt (prompt('Adivina el numero del 1 al 10:'))
+if (numerousuario === numeroaleatorio) {
+    console.log('Felicitaciones, ese era!')
+} else (numerousuario != numeroaleatorio)
+    console.log('Lo siento, intenta nuevamente')
+
+ 
